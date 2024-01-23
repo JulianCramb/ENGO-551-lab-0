@@ -1,0 +1,44 @@
+$font-family: 'Comic Sans MS', sans-serif;
+
+h1, h2, p {
+    font-family: $font-family;
+}
+
+h2 {
+    text-align: center;
+    color: #e44d26;
+    @media (min-width: 768px) {
+        font-size: 24px;
+    }
+}
+
+p {
+    color: gray;
+}
+
+.custom-center {
+    text-align: center;
+}
+
+.highlight-row {
+    background-color: #ffc107;
+}
+
+%navbarNav {
+    background-color: gray;
+    padding: 1opx;
+}
+#navbarNav {
+    @extend %navbar-styles !optional;
+    border-bottom: 2px solid orange;
+}
+
+.col-md-6 img {
+    border: 2px solid #007bff;
+}
+
+@media (max-width: 767px) {
+    body {
+        font-size: 14px;
+    }
+    }

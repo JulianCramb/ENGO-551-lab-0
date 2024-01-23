@@ -1,1 +1,3 @@
-# ENGO-551-lab-0
+# Project 0
+
+ENGO 551 - Adv. Topics on Geospatial Technologies
